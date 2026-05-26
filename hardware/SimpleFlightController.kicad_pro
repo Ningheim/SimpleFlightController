@@ -648,7 +648,7 @@
         "uuid": "cab90fd1-470e-4512-822f-ec24cbe1821f"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#PWR42-52,L4,SW1-2,X1-2,C35-39,J1,J3,R24",
     "variants": []
   },
   "sheets": [
