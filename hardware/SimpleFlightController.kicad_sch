@@ -3503,8 +3503,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 0 13.97 0)
+			(property "Reference" "U1"
+				(at 0 16.51 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -3514,7 +3514,7 @@
 				)
 			)
 			(property "Value" "TPS63070RNMR"
-				(at 0 -13.97 0)
+				(at 0 13.97 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -3759,7 +3759,7 @@
 							)
 						)
 					)
-					(number "8"
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3822,7 +3822,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 13.97 1.27 180)
+					(at 13.97 3.81 180)
 					(length 2.54)
 					(name "Vin"
 						(effects
@@ -3840,7 +3840,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 13.97 3.81 180)
+					(at 13.97 1.27 180)
 					(length 2.54)
 					(name "Vin"
 						(effects
@@ -3849,7 +3849,7 @@
 							)
 						)
 					)
-					(number "13"
+					(number "12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -23332,7 +23332,7 @@
 		(pin "7"
 			(uuid "e29c7216-6a9b-4946-b914-285d4ee704e1")
 		)
-		(pin "8"
+		(pin "7"
 			(uuid "fe4e18ca-eb74-4d52-aaba-bc5662c0edb3")
 		)
 		(pin "10"
@@ -23341,7 +23341,7 @@
 		(pin "12"
 			(uuid "84b84be8-0009-42a8-9646-0c62eee2a922")
 		)
-		(pin "13"
+		(pin "12"
 			(uuid "fd7cf885-a935-4ca7-b283-68b9220aff4f")
 		)
 		(pin "15"
