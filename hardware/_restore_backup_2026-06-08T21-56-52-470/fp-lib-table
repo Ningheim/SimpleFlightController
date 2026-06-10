@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "LSCS_Footprints") (type "KiCad") (uri "C:/Users/freed/OneDrive/Documents/GitHub/SimpleFlightController/lib/lcsc/easyeda2kicad.pretty") (options "") (descr ""))
+)
