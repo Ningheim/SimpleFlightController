@@ -82,7 +82,3 @@ Run that before opening the project for the first time, or KiCad will complain a
 4. **Assemble:** generate a BOM from the schematic for sourcing. Heads up — several passives are 0201/0402, so hand assembly is easiest with a stencil, paste, and hot air or reflow rather than a soldering iron alone.
 5. **Power up:** connect a 2S LiPo/Li-ion pack to `J2`, balance lead included, or run off `USB1` alone for bring-up without a battery.
 6. **Flash firmware:** hold `SW2` (BOOT0), reset or power-cycle, then flash over `USB1` in DFU mode.
-
-## License
-
-*Add your chosen hardware license here (e.g. CERN-OHL-S, TAPR OHL, MIT for any accompanying firmware/scripts).*
