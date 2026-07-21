@@ -1,5 +1,7 @@
 # SimpleFlightController
 
+<img width="733" height="611" alt="image" src="https://github.com/user-attachments/assets/fc7a2fe0-a7a5-4bca-8948-eb34f9dd7004" />
+
 A compact, USB-C powered flight controller built around the STM32F722. It's got onboard 2S LiPo/Li-ion charging, a 6-axis IMU, a barometer, microSD logging, and two servo/PWM outputs — everything wired up on a 50 x 55 mm, 2-layer board.
 
 Designed in KiCad 10.
