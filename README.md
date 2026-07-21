@@ -6,8 +6,6 @@ A compact, USB-C powered flight controller board built around the STM32F722, wit
 - **Layers:** 2 (top/bottom copper)
 - **Design tool:** KiCad (Pcbnew 10.0.2)
 
-> This repo currently contains the manufacturing/fabrication outputs for the board (BOM, placement data, netlist, and gerbers). Schematic and KiCad source files aren't part of this bundle yet — see [What's in this repo](#whats-in-this-repo) below.
-
 ## Features
 
 - **MCU:** STM32F722RET6 (Arm Cortex-M7, LQFP-64) with native USB Full-Speed
@@ -75,7 +73,3 @@ The BQ25887 charger shares the I2C bus with the BME280 barometer, since both are
 2. **Assemble:** use `bom.csv` for sourcing and `positions.csv` for pick-and-place, or hand-assemble using the same files as a reference (note several passives are 0201/0402 — fine-pitch tweezers/hot air or a stencil + reflow oven are recommended).
 3. **Power up:** connect a 2S LiPo/Li-ion pack to `J2` (including the balance/MID lead), or power solely from `USB1` for bring-up/testing without a battery attached.
 4. **Flash firmware:** hold `SW2` (BOOT0), reset or power-cycle the board, then connect over `USB1` and flash via DFU.
-
-## License
-
-*Add your chosen hardware license here (e.g. CERN-OHL-S, TAPR OHL, MIT for any accompanying firmware/scripts).*
