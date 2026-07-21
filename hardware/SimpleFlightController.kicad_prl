@@ -8,7 +8,7 @@
     "high_contrast_mode": 0,
     "net_color_mode": 1,
     "opacity": {
-      "images": 0.6,
+      "images": 0.6600000262260437,
       "pads": 1.0,
       "shapes": 1.0,
       "tracks": 1.0,
@@ -33,6 +33,7 @@
       "vias",
       "footprint_text",
       "footprint_anchors",
+      "ratsnest",
       "grid",
       "footprints_front",
       "footprints_back",
@@ -51,7 +52,7 @@
       "board_outline_area",
       "ly_points"
     ],
-    "visible_layers": "ffffffff_ffffffff_aaaaaaaa_a8aaaaab",
+    "visible_layers": "ffffffff_ffffffff_aaaaaaaa_aaaaaaaf",
     "zone_display_mode": 0
   },
   "git": {
