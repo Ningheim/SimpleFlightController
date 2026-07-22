@@ -1,0 +1,15 @@
+(version 1)
+
+# Relaxes copper clearance ONLY between two pads that belong to the same
+# footprint (e.g. both legs of a 0201 resistor, or adjacent/NC pins on a
+# fine-pitch QFN like the ICM-20948). Matches by reference designator,
+# since both pads of one component share the same Reference. This does
+# NOT touch the board-wide clearance rule for anything else - traces,
+# different components, zones, etc. are still held to the normal rule.
+#
+# 0.08mm (~3.1 mil) is comfortably within what JLCPCB/PCBWay standard
+# service can produce. Tighten or loosen to match your fab's capability.
+(rule "same_footprint_pad_clearance"
+    (condition "A.Reference == B.Reference")
+    (constraint clearance (min 0.08mm))
+)
