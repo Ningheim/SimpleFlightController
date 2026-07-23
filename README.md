@@ -28,9 +28,9 @@ USB-C VBUS ----> BQ25887 Charger
 
 ## How To Make It Yourself
 
-1. **Pull in libraries:** run `lcsc.py` as above so the schematic/PCB resolve correctly.
-2. **Open the project** in KiCad (`hardware/SimpleFlightController.kicad_pro`).
-3. **Fabricate:** export gerbers, drill files, and pick-and-place data from the PCB editor and send them to JLCPCB for a quote and print.
-4. **Assemble:** generate a BOM from the schematic for sourcing. Most footprints are 0201/0402, so I recommend hand assembly with a stencil, paste, and hot air or reflow.
-5. **Power up:** connect a 2S LiPo/Li-ion pack to `J2`, balance lead included, or run off `USB1` alone for bring-up without a battery.
-6. **Flash firmware:** hold `SW2` (BOOT0), reset or power-cycle, then flash over `USB1` in DFU mode.
+1. Run `lcsc.py` so the libraries resolve.
+2. Open the .kicad_pro file in KiCad.
+3. Export gerbers/drill/pick-and-place and send to JLCPCB for a quote.
+4. Generate a BOM and assemble with a stencil, paste, and reflow.
+5. Power up: 2S LIPO pack on the battery pad, `J2`.
+6. Flash: hold `SW2`, reset with `SW1`, flash over `USB1`.
